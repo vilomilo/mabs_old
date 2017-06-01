@@ -1,0 +1,20 @@
+{SELAH SUE
+- Alone
+} 
+Update on Thursday 22nd of September 2016 05:21:01 PM
+Connection failed: Connection refused
+SELECT id FROM ((SELECT s.id, s.artist, s.song, s.uid, p.start_time FROM song_list AS s INNER JOIN playlist AS p ON s.id = p.song_id ORDER BY start_time DESC LIMIT 1) AS sellast) WHERE `artist` = 'SELAH SUE
+' AND `song` = 'Alone
+' AND `uid` = 13173
+;
+SELECT id FROM song_list WHERE `artist` = 'SELAH SUE
+' AND `song` = 'Alone
+' AND `uid` = 13173
+;
+Error adding
+ |
+Error adding
+ |
+Error adding
+ |
+Tried 0 times to add song without results :(Disconnecting
